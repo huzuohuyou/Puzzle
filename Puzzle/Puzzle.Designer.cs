@@ -174,7 +174,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(87, 135);
+            this.label1.Location = new System.Drawing.Point(105, 135);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(17, 12);
             this.label1.TabIndex = 3;
@@ -184,7 +184,7 @@
             // 
             this.lab_time.AutoSize = true;
             this.lab_time.BackColor = System.Drawing.SystemColors.Control;
-            this.lab_time.Location = new System.Drawing.Point(28, 135);
+            this.lab_time.Location = new System.Drawing.Point(46, 135);
             this.lab_time.Name = "lab_time";
             this.lab_time.Size = new System.Drawing.Size(11, 12);
             this.lab_time.TabIndex = 2;
@@ -193,7 +193,7 @@
             // btn_import
             // 
             this.btn_import.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_import.Location = new System.Drawing.Point(29, 77);
+            this.btn_import.Location = new System.Drawing.Point(47, 77);
             this.btn_import.Name = "btn_import";
             this.btn_import.Size = new System.Drawing.Size(75, 23);
             this.btn_import.TabIndex = 1;
@@ -213,7 +213,7 @@
             // btn_sta
             // 
             this.btn_sta.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_sta.Location = new System.Drawing.Point(28, 21);
+            this.btn_sta.Location = new System.Drawing.Point(47, 21);
             this.btn_sta.Name = "btn_sta";
             this.btn_sta.Size = new System.Drawing.Size(75, 23);
             this.btn_sta.TabIndex = 5;
@@ -254,13 +254,13 @@
             // 
             // lab_result
             // 
-            this.lab_result.AutoSize = true;
-            this.lab_result.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_result.Font = new System.Drawing.Font("幼圆", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lab_result.ForeColor = System.Drawing.Color.Red;
-            this.lab_result.Location = new System.Drawing.Point(33, 173);
+            this.lab_result.Location = new System.Drawing.Point(3, 173);
             this.lab_result.Name = "lab_result";
-            this.lab_result.Size = new System.Drawing.Size(0, 20);
+            this.lab_result.Size = new System.Drawing.Size(163, 78);
             this.lab_result.TabIndex = 6;
+            this.lab_result.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Puzzle
             // 

@@ -187,7 +187,7 @@ namespace Puzzle
             PictureMouseUp(currentPictureBox, sender, e);
             if ( Judge())
             {
-                lab_result.Text = "成功";
+                lab_result.Text = "成功！";
                 //MessageBox.Show("恭喜拼图成功");
             }
         }
@@ -275,6 +275,7 @@ namespace Puzzle
 
         private void btn_import_Click(object sender, EventArgs e)
         {
+            lab_result.Text = "";
             ofd_picture.ShowDialog();
             CutPicture.PicturePath = ofd_picture.FileName;
             Flow(CutPicture.PicturePath);
@@ -364,6 +365,7 @@ namespace Puzzle
 
         private void btn_sta_Click_1(object sender, EventArgs e)
         {
+            lab_result.Text = "";
             timer1.Start();
         }
 
