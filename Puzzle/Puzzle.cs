@@ -53,9 +53,17 @@ namespace Puzzle
             if (!Directory.Exists(Application.StartupPath.ToString() + "\\Picture"))
             {
                 Directory.CreateDirectory(Application.StartupPath.ToString() + "\\Picture");
-                Properties.Resources.默认.Save(Application.StartupPath.ToString() + "\\Picture\\默认.jpg");
+                Properties.Resources.默认.Save(Application.StartupPath.ToString() + "\\Picture\\1.jpg");
+                Properties.Resources._1.Save(Application.StartupPath.ToString() + "\\Picture\\2.jpg");
+                Properties.Resources._2.Save(Application.StartupPath.ToString() + "\\Picture\\3.jpg");
+                Properties.Resources._3.Save(Application.StartupPath.ToString() + "\\Picture\\4.jpg");
+                Properties.Resources._4.Save(Application.StartupPath.ToString() + "\\Picture\\5.jpg");
+                Properties.Resources.成功.Save(Application.StartupPath.ToString() + "\\Picture\\6.jpg");
+                Properties.Resources.欢呼.Save(Application.StartupPath.ToString() + "\\Picture\\7.jpg");
             }
-            Flow(Application.StartupPath.ToString() + "\\Picture\\默认.jpg");
+            Random r = new Random();
+            int i = r.Next(7);
+            Flow(Application.StartupPath.ToString() + "\\Picture\\"+i.ToString()+".jpg");
         }
 
         private void Puzzle_Paint(object sender, PaintEventArgs e)

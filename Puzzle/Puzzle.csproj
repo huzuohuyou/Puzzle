@@ -87,6 +87,13 @@
     <None Include="Resources\439423f356b3c6d653e054357f9a0d0b.jpg" />
     <None Include="Resources\439423f356b3c6d653e054357f9a0d0b1.jpg" />
     <None Include="Resources\439423f356b3c6d653e054357f9a0d0b2.jpg" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\成功.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\欢呼.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\1.jpg" />
     <Content Include="temp.ico" />
   </ItemGroup>
   <ItemGroup>
