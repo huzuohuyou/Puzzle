@@ -8,4 +8,5 @@
 - 加载图像，将图片切片放置到9个不同的picturebox中，并打乱顺序；
 ![](http://i.imgur.com/eRGqEbx.png)
 - 开始游戏倒计时30秒
+
 ![](http://i.imgur.com/CwyRs2s.png)
